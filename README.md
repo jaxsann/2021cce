@@ -29,29 +29,40 @@ int main() ///圓括號在大寫9,0
     printf( "Hello World\n" );
 }/// 有個f  雙引號在大寫的 Enter旁
 ```
+```c
 #include <stdio.h>
 int main()
 {
     printf( "Hello World");
 }
+```
+```c
 {
     printf( "Hello World\n");
     printf( "Hello World\n");
 }
+```
+```c
 {
     int a, b;
     scanf( "%d%d", &a, &b );
     printf( "%d", a+b )
 }
+```
+```c
 {
     printf( "Hello World\n");
     printf( "%d" , 300 );
 }
+```
+```c
 {
     printf( "Hello World\n");
     printf( "Hello%dWorld\n", 300);
     printf( "%d %d    %d" , 300,200,100 );
 }
+```
+```c
 {
     int a;
     printf("請輸入一個整數a的值: ");
@@ -59,7 +70,8 @@ int main()
 
     printf("a的值是:%d\n" , a);
 }
-
+```
+```c
     #include <stdio.h>
 int main()
 {
@@ -67,6 +79,8 @@ int main()
 	scanf("%d%d", &a, &b );
 	printf("%d", a+b );
 }
+```
+```c
 #include <stdio.h>
 int main()
 {
@@ -74,3 +88,4 @@ int main()
 	scanf("%d%d", &a, &b );
 	printf("%d", a+b );
 }
+```
