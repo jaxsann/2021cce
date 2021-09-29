@@ -37,12 +37,16 @@ int main()
 }
 ```
 ```c
+#include <stdio.h>
+int main()
 {
     printf( "Hello World\n");
     printf( "Hello World\n");
 }
 ```
 ```c
+#include <stdio.h>
+int main()
 {
     int a, b;
     scanf( "%d%d", &a, &b );
@@ -50,12 +54,16 @@ int main()
 }
 ```
 ```c
+#include <stdio.h>
+int main()
 {
     printf( "Hello World\n");
     printf( "%d" , 300 );
 }
 ```
 ```c
+#include <stdio.h>
+int main()
 {
     printf( "Hello World\n");
     printf( "Hello%dWorld\n", 300);
@@ -63,6 +71,8 @@ int main()
 }
 ```
 ```c
+#include <stdio.h>
+int main()
 {
     int a;
     printf("請輸入一個整數a的值: ");
